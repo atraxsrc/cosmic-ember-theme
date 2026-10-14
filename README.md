@@ -326,9 +326,8 @@ Add `--system` to install to `/usr/share/icons` instead, for every user and the
 login screen (asks for sudo); `--user` is the default.
 
 Ten wallpapers in [`backgrounds/`](backgrounds/), named `ember-<subject>.png`, with
-`ember.gpl` beside them for GIMP work. Every one carries all 13 palette colours as
-their exact hex: whatever the picture does not use sits in a small swatch strip in
-the bottom right.
+`ember.gpl` beside them for GIMP work: blue-black night with ember small and loud.
+Ember Day has its own set, drawn for the light half.
 
 Five subjects come from [cool-wallpapers](https://github.com/atraxsrc/cool-wallpapers),
 rendered by `scripts/wallpaper.sh`: astronaut (the one in the screenshot), samurai,
@@ -344,11 +343,10 @@ Five more are the pick of [catppuccin-mocha-walls](https://github.com/atraxsrc/c
 recoloured by `scripts/mocha.py`: minimalist-black-hole, black-hole, yohoho,
 puffy-stars and lit-up-sky. Each Mocha colour moves onto its role here (mantle to the
 window, the surfaces and overlays to the neutrals, every warm colour to the ember
-family, the blues to slate blue), so the picture keeps its own light and soft edges.
-The day half turns the neutrals over, so the night sky becomes the stone window:
+family, the blues to slate blue), so the picture keeps its own light and soft edges:
 
 ```bash
-python3 scripts/mocha.py night path/to/mocha-wallpaper.png backgrounds/ember-<subject>.png
+python3 scripts/mocha.py path/to/mocha-wallpaper.png backgrounds/ember-<subject>.png
 ```
 
 Settings → Wallpaper → Add image → a file from `backgrounds/`.

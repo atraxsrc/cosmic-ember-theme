@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Recolour a Catppuccin Mocha wallpaper into this repo's palette.
 
-    python3 scripts/mocha.py night SOURCE OUT.png
-    python3 scripts/mocha.py day   SOURCE OUT.png
+    python3 scripts/mocha.py SOURCE OUT.png
 
 SOURCE is a wallpaper already drawn in Catppuccin Mocha, such as one from
 github.com/atraxsrc/catppuccin-mocha-walls. Each of the 26 Mocha colours has a
@@ -23,12 +22,7 @@ stays one glow instead of breaking into bands. The pictures worth recolouring
 are the ones that are mostly night with a small glow: the blue-black does the
 work and ember stays small and loud, as the palette asks.
 
-night keeps Mocha's light order. day turns the neutrals over, so the dark
-paper becomes the stone window and the lightest strokes become ink, and the
-accents take Ember Day's darker values.
-
-The result is cover-cropped to 3840x2160 and gets the palette strip of
-scripts/wallpaper.py, so every palette colour is present as its exact hex.
+The result is cover-cropped to 3840x2160.
 """
 import os
 import sys
@@ -37,7 +31,7 @@ import numpy as np
 from PIL import Image
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from wallpaper import H, W, check, from_lab, palette, strip, to_lab  # noqa: E402
+from wallpaper import H, W, from_lab, palette, to_lab  # noqa: E402
 
 MOCHA = {
     "rosewater": "f5e0dc", "flamingo": "f2cdcd", "pink": "f5c2e7", "mauve": "cba6f7",
@@ -50,7 +44,7 @@ MOCHA = {
 }
 
 
-def roles(lab, mode):
+def roles(lab):
     """Target OKLab colour for each Mocha name: a palette role, or a step
     between two roles written (a, b, t)."""
     mix = lambda a, b, t: lab[a] + (lab[b] - lab[a]) * t  # noqa: E731
@@ -70,9 +64,9 @@ def roles(lab, mode):
     }
 
 
-def recolour(img, pal, mode, power=4.0):
+def recolour(img, pal, power=4.0):
     lab = {k: to_lab(v) for k, v in pal.items()}
-    tgt = roles(lab, mode)
+    tgt = roles(lab)
     src = np.array([to_lab(np.array([int(h[i:i + 2], 16) for i in (0, 2, 4)], float)) for h in MOCHA.values()])
     move = np.array([tgt[k] for k in MOCHA]) - src
 
@@ -98,14 +92,12 @@ def cover(path):
 
 
 def main(argv):
-    if len(argv) != 3 or argv[0] not in ("night", "day"):
+    if len(argv) != 2:
         sys.exit(__doc__.split("\n\n")[1])
-    mode, src, out = argv
+    src, out = argv
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     pal = palette(root)
-    img = recolour(cover(src), pal, mode)
-    strip(img, pal)
-    check(img, pal, out, corners=False)  # a painting keeps its own edges
+    img = recolour(cover(src), pal)
     Image.fromarray(img).save(out, optimize=True)
     print(out)
 
