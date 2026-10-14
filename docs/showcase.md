@@ -1,6 +1,6 @@
 # Ember
 
-> Ember on COSMIC, blue chrome and a lime focus accent.
+> Night, fog and one ember. The dark half of Ember / Ember Day.
 
 Pop!_OS 24.04 on the COSMIC desktop, one palette carried through the whole
 machine: desktop, terminal, shell, editor, browser. This note is the rice
@@ -8,20 +8,21 @@ describing itself, written in Markdown and rendered by **Postilla**.
 
 ## Palette
 
-Every text colour is checked against the window background `#1A1B26`.
+Every text colour is checked against the window background `#15171C`.
 
 | Role | Hex | Contrast on background |
 |------|-----|------------------------|
-| Text | `#C0CAF5` | 10.6:1 |
-| Blue, accent | `#7AA2F7` | 6.8:1 |
-| Green, success | `#9ECE6A` | 9.4:1 |
-| Yellow | `#E0AF68` | 8.5:1 |
-| Red, error | `#F7768E` | 6.5:1 |
-| Cyan | `#7DCFFF` | 10.0:1 |
-| Purple | `#BB9AF7` | 7.4:1 |
+| Text | `#D6D9E0` | 12.7:1 |
+| Ember, accent | `#E8713A` | 5.9:1 |
+| Moss, success | `#8FB58A` | 7.8:1 |
+| Amber, warning | `#D9A441` | 8.0:1 |
+| Brick, error | `#D85A5A` | 4.7:1 |
+| Heather, magenta | `#B08BC4` | 6.3:1 |
+| Verdigris, symlinks | `#7FB7B3` | 8.0:1 |
 
-Containers sit one step away from the background at `#24283B`, which is
-what frosted glass blurs into.
+Containers sit one step away from the background at `#22262E`, which is
+what frosted glass blurs into. The terminal is the exception: an opaque pane
+at `#1B1E24`, one step lighter than the desktop.
 
 ## Where the colours go
 
@@ -32,7 +33,7 @@ flowchart LR
     P --> S[zsh layer<br/>LS_COLORS, highlighting, starship]
     P --> E[Postilla<br/>syntax theme from the terminal scheme]
     T --> B[btop, bat, lsd, fastfetch]
-    D --> F[Firefox<br/>Cosmic Night theme + userChrome]
+    D --> F[Firefox<br/>Cosmic Ember + userChrome]
 ```
 
 ## Setup, in order
@@ -41,9 +42,9 @@ flowchart LR
 - [x] Import `cosmic-term/Ember-term.ron`, pick **Ember** for the profile
 - [x] `./icons/install.sh` for the **Cosmic-Ember** icons, `./cosmic/install.sh` for fonts and the terminal look
 - [x] `./zsh/install.sh`, `./lsd/install.sh`, `./fastfetch/install.sh`
-- [x] Cursor: Oxygen-Ember-Blue
-- [x] Wallpaper: `backgrounds/ember-cosmic-astronaut-black.png`
-- [x] Screenshot for the README
+- [x] Cursor: Oxygen-Ember-Ember
+- [x] Wallpaper: `backgrounds/ember-astronaut.png`
+- [ ] Screenshot for the README
 
 ## The baseline every rice shares
 
@@ -52,7 +53,7 @@ corner_radii: (
     radius_xs: (2.0, 2.0, 2.0, 2.0),   // squared corners
     radius_xl: (2.0, 2.0, 2.0, 2.0),
 ),
-frosted: VeryLow,
+frosted: Low,
 frosted_windows: true,
 frosted_panel: true,
 frosted_applets: true,
