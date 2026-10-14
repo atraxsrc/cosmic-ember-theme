@@ -2,24 +2,23 @@
 set -eo pipefail
 
 # ─────────────────────────────────────────────
-#  Ember Dark palette
-#  bg:      #1a1b26   fg:      #c0caf5
-#  cyan:    #7dcfff   blue:    #7aa2f7
-#  purple:  #bb9af7   green:   #9ece6a
-#  yellow:  #e0af68   orange:  #ff9e64
-#  red:     #f7768e   comment: #565f89
+#  Ember palette (dark terminal)
+#  pane:    #1B1E24   fg:      #D6D9E0   (terminal pane; window bg #15171C)
+#  ember:   #E8713A   moss:    #8FB58A
+#  amber:   #D9A441   brick:   #D85A5A
+#  muted:   #7C8290   comment: #5A6070
 # ─────────────────────────────────────────────
 
-# Ember Dark - using $'...' so escape bytes are stored at assignment time
+# Ember - using $'...' so escape bytes are stored at assignment time
 # and work correctly with both echo -e and printf "%s"
-CYAN=$'\033[38;2;125;207;255m'    # #7dcfff  - section headers
-BLUE=$'\033[38;2;122;162;247m'    # #7aa2f7  - info / commands
-PURPLE=$'\033[38;2;187;154;247m'  # #bb9af7  - highlights
-GREEN=$'\033[38;2;158;206;106m'   # #9ece6a  - success
-YELLOW=$'\033[38;2;224;175;104m'  # #e0af68  - warnings
-ORANGE=$'\033[38;2;255;158;100m'  # #ff9e64  - skipped
-RED=$'\033[38;2;247;118;142m'     # #f7768e  - errors
-DIM=$'\033[38;2;86;95;137m'       # #565f89  - comments / dim text
+CYAN=$'\033[38;2;214;217;224m'      # #D6D9E0  - section headers (text)
+BLUE=$'\033[38;2;232;113;58m'     # #E8713A  - info / commands (ember)
+PURPLE=$'\033[38;2;176;139;196m'   # #B08BC4  - highlights (heather)
+GREEN=$'\033[38;2;143;181;138m'     # #8FB58A  - success (moss)
+YELLOW=$'\033[38;2;217;164;65m'   # #D9A441  - warnings (amber)
+ORANGE=$'\033[38;2;124;130;144m'   # #7C8290  - skipped (muted)
+RED=$'\033[38;2;216;90;90m'      # #D85A5A  - errors (brick)
+DIM=$'\033[38;2;90;96;112m'      # #5A6070  - comments / dim text
 BOLD=$'\033[1m'
 RESET=$'\033[0m'
 
@@ -126,8 +125,8 @@ update_snap() {
 # ── Logo ───────────────────────────────────────────────────────────────────────
 
 # COSMIC logo accent colors - global scope so $'...' escapes work correctly
-TEAL=$'\033[38;2;78;205;196m'   # #4ecdc4  COSMIC teal
-ORG=$'\033[38;2;255;107;53m'    # #ff6b35  COSMIC orange
+TEAL=$'\033[38;2;214;217;224m'  # #D6D9E0  text (left half of the rule)
+ORG=$'\033[38;2;232;113;58m'    # #E8713A  ember (right half of the rule)
 
 # Banner rows, ANSI Shadow figlet font. All 46 columns wide; keep them that way
 # or the gradient below will drift out of alignment with the letterforms.
@@ -140,24 +139,16 @@ LOGO_ROWS=(
     ' ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝  ╚═══╝   ╚═╝'
 )
 
-# Per-column colours for the banner: a blue → green ramp interpolated in Oklab
-# rather than in sRGB. A naive RGB blend between #7aa2f7 and #9ece6a dips through
-# a desaturated grey at the midpoint - which lands right under "De", the most
-# visible part of the word. Oklab is perceptually uniform, so the ramp stays
-# bright the whole way across and passes through cyan-teal instead.
-#
-# Precomputed at author time: doing cube roots in bash for 276 characters on
-# every run would be silly. To retune, regenerate rather than hand-editing.
-# One entry per column, 46 total.
+# Per-column colours for the banner: text to ember, left to right. One entry per column, 46 total.
 LOGO_GRAD=(
-    "122;162;247" "122;163;244" "123;165;242" "123;166;239" "124;167;237" "125;168;234"
-    "125;170;231" "126;171;229" "126;172;226" "127;173;223" "128;174;221" "128;175;218"
-    "129;177;215" "130;178;213" "130;179;210" "131;180;207" "132;181;204" "132;182;201"
-    "133;183;199" "134;184;196" "135;185;193" "136;186;190" "136;187;187" "137;188;184"
-    "138;189;181" "139;190;178" "140;191;175" "141;191;172" "141;192;169" "142;193;166"
-    "143;194;163" "144;195;159" "145;196;156" "146;197;153" "147;197;149" "148;198;146"
-    "149;199;142" "150;200;139" "151;201;135" "152;201;131" "153;202;127" "154;203;123"
-    "155;204;119" "156;205;115" "157;205;111" "158;206;106"
+    "214;217;224" "214;215;220" "215;212;217" "215;210;213" "216;208;209" "216;205;206"
+    "216;203;202" "217;201;198" "217;199;194" "218;196;191" "218;194;187" "218;192;183"
+    "219;189;180" "219;187;176" "220;185;172" "220;182;169" "220;180;165" "221;178;161"
+    "221;175;158" "222;173;154" "222;171;150" "222;168;147" "223;166;143" "223;164;139"
+    "224;162;135" "224;159;132" "224;157;128" "225;155;124" "225;152;121" "226;150;117"
+    "226;148;113" "226;145;110" "227;143;106" "227;141;102" "228;138;99" "228;136;95"
+    "228;134;91" "229;131;88" "229;129;84" "230;127;80" "230;125;76" "230;122;73"
+    "231;120;69" "231;118;65" "232;115;62" "232;113;58"
 )
 
 # Draw the banner one character at a time, colouring by column index so the
