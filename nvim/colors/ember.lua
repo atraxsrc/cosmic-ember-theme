@@ -1,15 +1,15 @@
 -- Ember colorscheme for Neovim, part of cosmic-ember-theme.
--- Generated from the rice palette: the editor background is the window
--- background, text is the rice text colour, and syntax roles follow the
--- COSMIC Terminal scheme (Ember). No plugin needed: drop it in
--- ~/.config/nvim/colors/ and :colorscheme ember.
+-- Generated from the rice palette: the editor background is the terminal
+-- pane (#1B1E24, floats on the window colour), text is the rice text colour,
+-- and syntax roles follow the COSMIC Terminal scheme (Ember). No plugin
+-- needed: drop it in ~/.config/nvim/colors/ and :colorscheme ember.
 
 local p = {
-  bg = "#1A1B26", bg1 = "#24283B", bg2 = "#414868",
-  fg = "#C0CAF5", muted = "#A9B1D6", dim = "#565F89",
-  accent = "#7AA2F7", success = "#9ECE6A", warning = "#E0AF68", error = "#F7768E",
-  kw = "#BB9AF7", fn = "#7AA2F7", str = "#9ECE6A", num = "#FF9E64", typ = "#2AC3DE",
-  op = "#89DDFF", cmt = "#565F89", spec = "#7DCFFF", link = "#7DCFFF",
+  bg = "#1B1E24", bg1 = "#15171C", bg2 = "#2D3036",
+  fg = "#D6D9E0", muted = "#7C8290", dim = "#5A6070",
+  accent = "#E8713A", success = "#8FB58A", warning = "#D9A441", error = "#D85A5A",
+  kw = "#B08BC4", fn = "#7FA3C7", str = "#8FB58A", num = "#D9A441", typ = "#7FB7B3",
+  op = "#7C8290", cmt = "#5A6070", spec = "#E8713A", link = "#7FB7B3",
 }
 
 vim.cmd.highlight("clear")
@@ -260,19 +260,19 @@ hi("SnacksDashboardDesc", { fg = p.fg })
 hi("SnacksDashboardFooter", { fg = p.dim })
 
 -- :terminal uses the COSMIC Terminal scheme of this rice
-vim.g.terminal_color_0 = "#1D202F"
-vim.g.terminal_color_1 = "#F93356"
-vim.g.terminal_color_2 = "#8FD78A"
-vim.g.terminal_color_3 = "#E9BD64"
-vim.g.terminal_color_4 = "#5C9FF4"
-vim.g.terminal_color_5 = "#B974DC"
-vim.g.terminal_color_6 = "#59C2C7"
-vim.g.terminal_color_7 = "#A9B1D6"
-vim.g.terminal_color_8 = "#646A83"
-vim.g.terminal_color_9 = "#F47687"
-vim.g.terminal_color_10 = "#A3D7A3"
-vim.g.terminal_color_11 = "#ECD3A0"
-vim.g.terminal_color_12 = "#91C0F4"
-vim.g.terminal_color_13 = "#CEB1EC"
-vim.g.terminal_color_14 = "#7AD1D9"
-vim.g.terminal_color_15 = "#C4CFF4"
+vim.g.terminal_color_0 = "#2A2F38"
+vim.g.terminal_color_1 = "#D85A5A"
+vim.g.terminal_color_2 = "#8FB58A"
+vim.g.terminal_color_3 = "#D9A441"
+vim.g.terminal_color_4 = "#7FA3C7"
+vim.g.terminal_color_5 = "#B08BC4"
+vim.g.terminal_color_6 = "#7FB7B3"
+vim.g.terminal_color_7 = "#D6D9E0"
+vim.g.terminal_color_8 = "#7C8290"
+vim.g.terminal_color_9 = "#DD6E6E"
+vim.g.terminal_color_10 = "#9CBE98"
+vim.g.terminal_color_11 = "#DEAF58"
+vim.g.terminal_color_12 = "#8EAECE"
+vim.g.terminal_color_13 = "#B999CB"
+vim.g.terminal_color_14 = "#8EC0BC"
+vim.g.terminal_color_15 = "#E2E4E9"
