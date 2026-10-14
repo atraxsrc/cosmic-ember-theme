@@ -1,38 +1,41 @@
-user: 149
-group: 111
+# 256-colour codes nearest the Ember palette on the pane (lsd 1.0.0 does
+# not accept #hex here): 173 ember, 108 moss, 179 amber, 167 brick,
+# 110 slate blue, 140 heather, 109 verdigris, 102 muted, 241 comment, 253 text.
+user: 173
+group: 102
 permission:
-  read: 111
+  read: 102
   write: 179
-  exec: 210
-  exec-sticky: 210
-  no-access: 60
-  octal: 141
-  acl: 141
-  context: 141
+  exec: 167
+  exec-sticky: 167
+  no-access: 241
+  octal: 253
+  acl: 253
+  context: 253
 date:
-  hour-old: 149
-  day-old: 111
-  older: 141
+  hour-old: 173
+  day-old: 108
+  older: 241
 size:
-  none: 60
-  small: 149
+  none: 241
+  small: 108
   medium: 179
-  large: 210
+  large: 167
 inode:
-  valid: 149
-  invalid: 210
+  valid: 108
+  invalid: 167
 links:
-  valid: 179
-  invalid: 210
-tree-edge: 60
+  valid: 253
+  invalid: 167
+tree-edge: 241
 git-status:
-  default: 60
-  unmodified: 60
-  ignored: 60
-  new-in-index: 111
-  new-in-workdir: 111
+  default: 241
+  unmodified: 241
+  ignored: 241
+  new-in-index: 108
+  new-in-workdir: 108
   typechange: 179
-  deleted: 210
-  renamed: 111
-  modified: 179
-  conflicted: 210
+  deleted: 167
+  renamed: 253
+  modified: 173
+  conflicted: 167
