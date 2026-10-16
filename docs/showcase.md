@@ -43,8 +43,8 @@ flowchart LR
 - [x] `./icons/install.sh` for the **Cosmic-Ember** icons, `./cosmic/install.sh` for fonts and the terminal look
 - [x] `./zsh/install.sh`, `./lsd/install.sh`, `./fastfetch/install.sh`
 - [x] Cursor: Oxygen-Ember-Ember
-- [x] Wallpaper: `backgrounds/ember-astronaut.png`
-- [ ] Screenshot for the README
+- [x] Wallpaper: `backgrounds/ember-anime.png`
+- [x] Screenshot for the README
 
 ## The baseline every rice shares
 

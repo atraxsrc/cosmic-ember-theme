@@ -102,11 +102,10 @@ Window hint `#E8713A`. Ratios per role are in `docs/showcase.md`, or run
 │   └── install.sh
 ├── assets
 │   ├── cursors/                 # cursor preview
-│   ├── screenshot.png           # README screenshot
-│   └── wallpaper.png            # the astronaut on the bare desktop
-├── backgrounds/                 # five wallpapers, ember-<subject>.png, and ember.gpl
+│   └── screenshot.png           # README screenshot
+├── backgrounds/                 # ember-anime.png
 ├── docs
-│   └── showcase.md              # the rice describing itself, for the Postilla pane of the screenshot
+│   └── showcase.md              # the rice describing itself, rendered in Postilla
 ├── LICENSE
 └── README.md
 ```
@@ -357,19 +356,14 @@ Restart open apps afterwards (Files caches icons per window).
 Add `--system` to install to `/usr/share/icons` instead, for every user and the
 login screen (asks for sudo); `--user` is the default.
 
-Five subjects rendered by `scripts/wallpaper.sh` from
-[cool-wallpapers](https://github.com/atraxsrc/cool-wallpapers), named `ember-<subject>.png`
-in [`backgrounds/`](backgrounds/): astronaut (the one in the screenshot), samurai,
-geisha, city and the eagle; `ember.gpl` sits beside them for GIMP work. Any other
-source renders with one command:
+One wallpaper in [`backgrounds/`](backgrounds/): `ember-anime.png`, the one in
+the screenshot. Any other source renders in the Ember palette with one command:
 
 ```bash
 ./scripts/wallpaper.sh night path/to/source.png backgrounds/ember-<subject>.png
 ```
 
 Settings → Wallpaper → Add image → a file from `backgrounds/`.
-
-![The astronaut wallpaper on the Ember desktop, panel only](assets/wallpaper.png)
 
 ---
 
