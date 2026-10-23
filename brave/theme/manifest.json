@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Cosmic Ember",
+  "version": "1.0",
+  "description": "Blue-black dark theme from the COSMIC Ember rice: moss icons, one ember accent.",
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "theme": {
+    "colors": {
+      "frame": [21, 23, 28],
+      "frame_inactive": [21, 23, 28],
+      "frame_incognito": [21, 23, 28],
+      "frame_incognito_inactive": [21, 23, 28],
+      "background_tab": [21, 23, 28],
+      "background_tab_inactive": [21, 23, 28],
+      "background_tab_incognito": [21, 23, 28],
+      "background_tab_incognito_inactive": [21, 23, 28],
+      "toolbar": [34, 38, 46],
+      "tab_text": [232, 113, 58],
+      "tab_background_text": [143, 181, 138],
+      "tab_background_text_inactive": [143, 181, 138],
+      "tab_background_text_incognito": [143, 181, 138],
+      "tab_background_text_incognito_inactive": [143, 181, 138],
+      "bookmark_text": [214, 217, 224],
+      "toolbar_button_icon": [143, 181, 138],
+      "omnibox_background": [26, 28, 34],
+      "omnibox_text": [214, 217, 224],
+      "ntp_background": [21, 23, 28],
+      "ntp_text": [214, 217, 224],
+      "ntp_link": [232, 113, 58]
+    }
+  }
+}
