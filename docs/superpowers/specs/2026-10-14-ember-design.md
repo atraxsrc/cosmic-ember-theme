@@ -20,7 +20,7 @@ per half are produced by a script in the repo from sources in cool-wallpapers.
 ## The design
 
 One hue family, temperature flipped. Night is a blue-black, day is a warm
-stone, and the ember `#E8713A` / `#A4441A` is the only saturated colour on
+stone, and the ember ![#E8713A](https://placehold.co/12x12/e8713a/e8713a.png) `#E8713A` / ![#A4441A](https://placehold.co/12x12/a4441a/a4441a.png) `#A4441A` is the only saturated colour on
 either. Rules, each of which the Tokyo Day work confirmed:
 
 - Neutrals carry the identity through a slight hue bias; no pure black or white.
@@ -37,47 +37,47 @@ either. Rules, each of which the Tokyo Day work confirmed:
 
 ### Ember (night)
 
-Contrast on the window `#15171C`, then on the pane `#1B1E24`.
+Contrast on the window ![#15171C](https://placehold.co/12x12/15171c/15171c.png) `#15171C`, then on the pane ![#1B1E24](https://placehold.co/12x12/1b1e24/1b1e24.png) `#1B1E24`.
 
 | Role | Name | Hex | Window | Pane |
 |------|------|-----|--------|------|
-| Window background | Night | `#15171C` | | |
-| Terminal pane, secondary container | Pane | `#1B1E24` | | |
-| Primary container | Soot | `#22262E` | | |
-| Raised / selection | Slate | `#2A2F38` | | |
-| Text | Fog | `#D6D9E0` | 12.7 | 11.8 |
-| Accent, window hint | Ember | `#E8713A` | 5.9 | 5.4 |
-| Success | Moss | `#8FB58A` | 7.8 | 7.3 |
-| Warning | Amber | `#D9A441` | 8.0 | 7.4 |
-| Error | Brick | `#D85A5A` | 4.7 | 4.4 |
-| Blue slot | Slate blue | `#7FA3C7` | 6.8 | 6.3 |
-| Magenta slot | Heather | `#B08BC4` | 6.3 | 5.8 |
-| Cyan slot | Verdigris | `#7FB7B3` | 8.0 | 7.4 |
-| Muted | Muted | `#7C8290` | 4.7 | 4.3 |
-| Comment | Comment | `#5A6070` | 2.9 | 2.7 |
+| Window background | Night | ![#15171C](https://placehold.co/12x12/15171c/15171c.png) `#15171C` | | |
+| Terminal pane, secondary container | Pane | ![#1B1E24](https://placehold.co/12x12/1b1e24/1b1e24.png) `#1B1E24` | | |
+| Primary container | Soot | ![#22262E](https://placehold.co/12x12/22262e/22262e.png) `#22262E` | | |
+| Raised / selection | Slate | ![#2A2F38](https://placehold.co/12x12/2a2f38/2a2f38.png) `#2A2F38` | | |
+| Text | Fog | ![#D6D9E0](https://placehold.co/12x12/d6d9e0/d6d9e0.png) `#D6D9E0` | 12.7 | 11.8 |
+| Accent, window hint | Ember | ![#E8713A](https://placehold.co/12x12/e8713a/e8713a.png) `#E8713A` | 5.9 | 5.4 |
+| Success | Moss | ![#8FB58A](https://placehold.co/12x12/8fb58a/8fb58a.png) `#8FB58A` | 7.8 | 7.3 |
+| Warning | Amber | ![#D9A441](https://placehold.co/12x12/d9a441/d9a441.png) `#D9A441` | 8.0 | 7.4 |
+| Error | Brick | ![#D85A5A](https://placehold.co/12x12/d85a5a/d85a5a.png) `#D85A5A` | 4.7 | 4.4 |
+| Blue slot | Slate blue | ![#7FA3C7](https://placehold.co/12x12/7fa3c7/7fa3c7.png) `#7FA3C7` | 6.8 | 6.3 |
+| Magenta slot | Heather | ![#B08BC4](https://placehold.co/12x12/b08bc4/b08bc4.png) `#B08BC4` | 6.3 | 5.8 |
+| Cyan slot | Verdigris | ![#7FB7B3](https://placehold.co/12x12/7fb7b3/7fb7b3.png) `#7FB7B3` | 8.0 | 7.4 |
+| Muted | Muted | ![#7C8290](https://placehold.co/12x12/7c8290/7c8290.png) `#7C8290` | 4.7 | 4.3 |
+| Comment | Comment | ![#5A6070](https://placehold.co/12x12/5a6070/5a6070.png) `#5A6070` | 2.9 | 2.7 |
 
 ### Ember Day
 
-Contrast on the window `#E9E6DF`, then on the pane `#DDD9D1`.
+Contrast on the window ![#E9E6DF](https://placehold.co/12x12/e9e6df/e9e6df.png) `#E9E6DF`, then on the pane ![#DDD9D1](https://placehold.co/12x12/ddd9d1/ddd9d1.png) `#DDD9D1`.
 
 | Role | Name | Hex | Window | Pane |
 |------|------|-----|--------|------|
-| Window background | Stone | `#E9E6DF` | | |
-| Primary container | Linen | `#E2DED6` | | |
-| Terminal pane, secondary container | Pane | `#DDD9D1` | | |
-| Raised / selection | Sand | `#D4CFC6` | | |
-| Text | Ink | `#2B2E36` | 10.9 | 9.6 |
-| Accent, window hint | Ember | `#A4441A` | 4.9 | 4.4 |
-| Success | Moss | `#4C6B45` | 4.8 | 4.3 |
-| Warning | Amber | `#8A5E12` | 4.6 | 4.0 |
-| Error | Brick | `#9E3A3A` | 5.4 | 4.8 |
-| Blue slot | Slate blue | `#2F5C8A` | 5.6 | 4.9 |
-| Magenta slot | Heather | `#6E4E8C` | 5.4 | 4.8 |
-| Cyan slot | Verdigris | `#2E6E6A` | 4.7 | 4.2 |
-| Muted | Muted | `#6B6F78` | 4.0 | 3.6 |
-| Comment | Comment | `#8C9099` | 2.6 | 2.3 |
+| Window background | Stone | ![#E9E6DF](https://placehold.co/12x12/e9e6df/e9e6df.png) `#E9E6DF` | | |
+| Primary container | Linen | ![#E2DED6](https://placehold.co/12x12/e2ded6/e2ded6.png) `#E2DED6` | | |
+| Terminal pane, secondary container | Pane | ![#DDD9D1](https://placehold.co/12x12/ddd9d1/ddd9d1.png) `#DDD9D1` | | |
+| Raised / selection | Sand | ![#D4CFC6](https://placehold.co/12x12/d4cfc6/d4cfc6.png) `#D4CFC6` | | |
+| Text | Ink | ![#2B2E36](https://placehold.co/12x12/2b2e36/2b2e36.png) `#2B2E36` | 10.9 | 9.6 |
+| Accent, window hint | Ember | ![#A4441A](https://placehold.co/12x12/a4441a/a4441a.png) `#A4441A` | 4.9 | 4.4 |
+| Success | Moss | ![#4C6B45](https://placehold.co/12x12/4c6b45/4c6b45.png) `#4C6B45` | 4.8 | 4.3 |
+| Warning | Amber | ![#8A5E12](https://placehold.co/12x12/8a5e12/8a5e12.png) `#8A5E12` | 4.6 | 4.0 |
+| Error | Brick | ![#9E3A3A](https://placehold.co/12x12/9e3a3a/9e3a3a.png) `#9E3A3A` | 5.4 | 4.8 |
+| Blue slot | Slate blue | ![#2F5C8A](https://placehold.co/12x12/2f5c8a/2f5c8a.png) `#2F5C8A` | 5.6 | 4.9 |
+| Magenta slot | Heather | ![#6E4E8C](https://placehold.co/12x12/6e4e8c/6e4e8c.png) `#6E4E8C` | 5.4 | 4.8 |
+| Cyan slot | Verdigris | ![#2E6E6A](https://placehold.co/12x12/2e6e6a/2e6e6a.png) `#2E6E6A` | 4.7 | 4.2 |
+| Muted | Muted | ![#6B6F78](https://placehold.co/12x12/6b6f78/6b6f78.png) `#6B6F78` | 4.0 | 3.6 |
+| Comment | Comment | ![#8C9099](https://placehold.co/12x12/8c9099/8c9099.png) `#8C9099` | 2.6 | 2.3 |
 
-The day accent was darkened from the mockup's `#B84E1E` (4.1:1) to `#A4441A`
+The day accent was darkened from the mockup's ![#B84E1E](https://placehold.co/12x12/b84e1e/b84e1e.png) `#B84E1E` (4.1:1) to ![#A4441A](https://placehold.co/12x12/a4441a/a4441a.png) `#A4441A`
 so it clears 4.5:1 on the window. Muted and comment are de-emphasis roles in
 both halves and sit under 4.5 on purpose, as every sibling does. On the pane,
 day warning, cyan, success and accent land between 4.0 and 4.4, the same trade
@@ -97,22 +97,22 @@ with `neutral_tint #868686`.
 
 Night: bright is normal blended 12 percent toward white, dim is normal blended
 40 percent toward the pane. Black is the raised slate, white is the text;
-bright white is the exception at `#E2E4E9` (about 29 percent toward white) so
+bright white is the exception at ![#E2E4E9](https://placehold.co/12x12/e2e4e9/e2e4e9.png) `#E2E4E9` (about 29 percent toward white) so
 bold text reads as clearly whiter than fog.
 
 | Slot | Normal | Bright | Dim |
 |------|--------|--------|-----|
-| black | `#2A2F38` | `#7C8290` | `#242830` |
-| red | `#D85A5A` | `#DD6E6E` | `#8C4244` |
-| green | `#8FB58A` | `#9CBE98` | `#617961` |
-| yellow | `#D9A441` | `#DEAF58` | `#8D6E35` |
-| blue | `#7FA3C7` | `#8EAECE` | `#576E86` |
-| magenta | `#B08BC4` | `#B999CB` | `#745F84` |
-| cyan | `#7FB7B3` | `#8EC0BC` | `#577A7A` |
-| white | `#D6D9E0` | `#E2E4E9` | `#8B8E95` |
+| black | ![#2A2F38](https://placehold.co/12x12/2a2f38/2a2f38.png) `#2A2F38` | ![#7C8290](https://placehold.co/12x12/7c8290/7c8290.png) `#7C8290` | ![#242830](https://placehold.co/12x12/242830/242830.png) `#242830` |
+| red | ![#D85A5A](https://placehold.co/12x12/d85a5a/d85a5a.png) `#D85A5A` | ![#DD6E6E](https://placehold.co/12x12/dd6e6e/dd6e6e.png) `#DD6E6E` | ![#8C4244](https://placehold.co/12x12/8c4244/8c4244.png) `#8C4244` |
+| green | ![#8FB58A](https://placehold.co/12x12/8fb58a/8fb58a.png) `#8FB58A` | ![#9CBE98](https://placehold.co/12x12/9cbe98/9cbe98.png) `#9CBE98` | ![#617961](https://placehold.co/12x12/617961/617961.png) `#617961` |
+| yellow | ![#D9A441](https://placehold.co/12x12/d9a441/d9a441.png) `#D9A441` | ![#DEAF58](https://placehold.co/12x12/deaf58/deaf58.png) `#DEAF58` | ![#8D6E35](https://placehold.co/12x12/8d6e35/8d6e35.png) `#8D6E35` |
+| blue | ![#7FA3C7](https://placehold.co/12x12/7fa3c7/7fa3c7.png) `#7FA3C7` | ![#8EAECE](https://placehold.co/12x12/8eaece/8eaece.png) `#8EAECE` | ![#576E86](https://placehold.co/12x12/576e86/576e86.png) `#576E86` |
+| magenta | ![#B08BC4](https://placehold.co/12x12/b08bc4/b08bc4.png) `#B08BC4` | ![#B999CB](https://placehold.co/12x12/b999cb/b999cb.png) `#B999CB` | ![#745F84](https://placehold.co/12x12/745f84/745f84.png) `#745F84` |
+| cyan | ![#7FB7B3](https://placehold.co/12x12/7fb7b3/7fb7b3.png) `#7FB7B3` | ![#8EC0BC](https://placehold.co/12x12/8ec0bc/8ec0bc.png) `#8EC0BC` | ![#577A7A](https://placehold.co/12x12/577a7a/577a7a.png) `#577A7A` |
+| white | ![#D6D9E0](https://placehold.co/12x12/d6d9e0/d6d9e0.png) `#D6D9E0` | ![#E2E4E9](https://placehold.co/12x12/e2e4e9/e2e4e9.png) `#E2E4E9` | ![#8B8E95](https://placehold.co/12x12/8b8e95/8b8e95.png) `#8B8E95` |
 
-Foreground `#D6D9E0`, background `#1B1E24`, cursor `#E8713A`, bright
-foreground `#E2E4E9`, dim foreground `#7C8290`. Bright black is muted so
+Foreground ![#D6D9E0](https://placehold.co/12x12/d6d9e0/d6d9e0.png) `#D6D9E0`, background ![#1B1E24](https://placehold.co/12x12/1b1e24/1b1e24.png) `#1B1E24`, cursor ![#E8713A](https://placehold.co/12x12/e8713a/e8713a.png) `#E8713A`, bright
+foreground ![#E2E4E9](https://placehold.co/12x12/e2e4e9/e2e4e9.png) `#E2E4E9`, dim foreground ![#7C8290](https://placehold.co/12x12/7c8290/7c8290.png) `#7C8290`. Bright black is muted so
 `ls` dotfiles and prompts that use it stay readable.
 
 Day: bright is normal darkened 15 percent, dim is normal blended 40 percent
@@ -120,17 +120,17 @@ toward the pane. Black is ink, white is muted.
 
 | Slot | Normal | Bright | Dim |
 |------|--------|--------|-----|
-| black | `#2B2E36` | `#25272E` | `#727274` |
-| red | `#9E3A3A` | `#863131` | `#B77A76` |
-| green | `#4C6B45` | `#415B3B` | `#86977D` |
-| yellow | `#8A5E12` | `#75500F` | `#AB8F5E` |
-| blue | `#2F5C8A` | `#284E75` | `#758EA6` |
-| magenta | `#6E4E8C` | `#5E4277` | `#9A86A8` |
-| cyan | `#2E6E6A` | `#275E5A` | `#749993` |
-| white | `#6B6F78` | `#5B5E66` | `#99999C` |
+| black | ![#2B2E36](https://placehold.co/12x12/2b2e36/2b2e36.png) `#2B2E36` | ![#25272E](https://placehold.co/12x12/25272e/25272e.png) `#25272E` | ![#727274](https://placehold.co/12x12/727274/727274.png) `#727274` |
+| red | ![#9E3A3A](https://placehold.co/12x12/9e3a3a/9e3a3a.png) `#9E3A3A` | ![#863131](https://placehold.co/12x12/863131/863131.png) `#863131` | ![#B77A76](https://placehold.co/12x12/b77a76/b77a76.png) `#B77A76` |
+| green | ![#4C6B45](https://placehold.co/12x12/4c6b45/4c6b45.png) `#4C6B45` | ![#415B3B](https://placehold.co/12x12/415b3b/415b3b.png) `#415B3B` | ![#86977D](https://placehold.co/12x12/86977d/86977d.png) `#86977D` |
+| yellow | ![#8A5E12](https://placehold.co/12x12/8a5e12/8a5e12.png) `#8A5E12` | ![#75500F](https://placehold.co/12x12/75500f/75500f.png) `#75500F` | ![#AB8F5E](https://placehold.co/12x12/ab8f5e/ab8f5e.png) `#AB8F5E` |
+| blue | ![#2F5C8A](https://placehold.co/12x12/2f5c8a/2f5c8a.png) `#2F5C8A` | ![#284E75](https://placehold.co/12x12/284e75/284e75.png) `#284E75` | ![#758EA6](https://placehold.co/12x12/758ea6/758ea6.png) `#758EA6` |
+| magenta | ![#6E4E8C](https://placehold.co/12x12/6e4e8c/6e4e8c.png) `#6E4E8C` | ![#5E4277](https://placehold.co/12x12/5e4277/5e4277.png) `#5E4277` | ![#9A86A8](https://placehold.co/12x12/9a86a8/9a86a8.png) `#9A86A8` |
+| cyan | ![#2E6E6A](https://placehold.co/12x12/2e6e6a/2e6e6a.png) `#2E6E6A` | ![#275E5A](https://placehold.co/12x12/275e5a/275e5a.png) `#275E5A` | ![#749993](https://placehold.co/12x12/749993/749993.png) `#749993` |
+| white | ![#6B6F78](https://placehold.co/12x12/6b6f78/6b6f78.png) `#6B6F78` | ![#5B5E66](https://placehold.co/12x12/5b5e66/5b5e66.png) `#5B5E66` | ![#99999C](https://placehold.co/12x12/99999c/99999c.png) `#99999C` |
 
-Foreground `#2B2E36`, background `#DDD9D1`, cursor `#A4441A`, bright
-foreground `#25272E`, dim foreground `#6B6F78`.
+Foreground ![#2B2E36](https://placehold.co/12x12/2b2e36/2b2e36.png) `#2B2E36`, background ![#DDD9D1](https://placehold.co/12x12/ddd9d1/ddd9d1.png) `#DDD9D1`, cursor ![#A4441A](https://placehold.co/12x12/a4441a/a4441a.png) `#A4441A`, bright
+foreground ![#25272E](https://placehold.co/12x12/25272e/25272e.png) `#25272E`, dim foreground ![#6B6F78](https://placehold.co/12x12/6b6f78/6b6f78.png) `#6B6F78`.
 
 ### Syntax roles (Neovim, zsh, Postilla via the terminal scheme)
 
@@ -159,7 +159,7 @@ Fresh git repos, one first commit each, same as the earlier light siblings.
 ### COSMIC appearance ron
 
 Night, `palette: Dark((name: "Ember", ...))`: bright_red brick, bright_green
-moss, bright_orange ember, gray_1 `#22262E`, gray_2 `#2A2F38`, neutral ramp
+moss, bright_orange ember, gray_1 ![#22262E](https://placehold.co/12x12/22262e/22262e.png) `#22262E`, gray_2 ![#2A2F38](https://placehold.co/12x12/2a2f38/2a2f38.png) `#2A2F38`, neutral ramp
 above, accent_blue slate blue, accent_indigo heather, accent_purple heather,
 accent_pink brick, accent_red brick, accent_orange ember, accent_yellow amber,
 accent_green moss, warm greys muted, ext_orange ember, ext_yellow amber,
@@ -171,7 +171,7 @@ Top level: `bg_color #15171C`, `primary_container_bg #22262E`,
 
 Day, `palette: Light((name: "Ember-Day", ...))`: the same slot assignment
 with the day values, except gray_2 which follows the Tokyo Day convention and
-equals the pane `#DDD9D1` (the top-level container keys set the surfaces); `bg_color #E9E6DF`, `primary_container_bg #E2DED6`,
+equals the pane ![#DDD9D1](https://placehold.co/12x12/ddd9d1/ddd9d1.png) `#DDD9D1` (the top-level container keys set the surfaces); `bg_color #E9E6DF`, `primary_container_bg #E2DED6`,
 `secondary_container_bg #DDD9D1`, `text_tint #2B2E36`, `accent #A4441A`,
 `success #4C6B45`, `warning #8A5E12`, `destructive #9E3A3A`,
 `window_hint #A4441A`, `neutral_tint #868686`.
@@ -193,12 +193,12 @@ The Tokyo Day component rules apply with the palette swapped, in both halves:
   highlights and selection ember, meters moss to ember to brick, cached amber,
   available verdigris, used brick, inactive comment.
 - fastfetch: logo in fog (night) or ink (day), keys ember, titles heather, box
-  lines text blended 70 percent toward the pane (`#53565C` night, `#A8A6A2`
+  lines text blended 70 percent toward the pane (![#53565C](https://placehold.co/12x12/53565c/53565c.png) `#53565C` night, ![#A8A6A2](https://placehold.co/12x12/a8a6a2/a8a6a2.png) `#A8A6A2`
   day), palette dots text, ember, moss, amber, brick, heather, verdigris.
 - zsh: commands ember, directories bold slate blue, symlinks italic verdigris,
   executables bold moss, archives amber, images heather, code moss, documents
   text, broken links brick; autosuggest comment blended 30 percent toward the
-  pane (`#474C59` night, `#A4A6AA` day); strings moss, comments comment,
+  pane (![#474C59](https://placehold.co/12x12/474c59/474c59.png) `#474C59` night, ![#A4A6AA](https://placehold.co/12x12/a4a6aa/a4a6aa.png) `#A4A6AA` day); strings moss, comments comment,
   options and separators muted, paths text underlined, unknown tokens brick.
 - lsd 256 indices (nearest cube colour, adjusted where two roles collide or
   the nearest is a grey). Night: ember 173, moss 108, amber 179, brick 167,
@@ -206,7 +206,7 @@ The Tokyo Day component rules apply with the palette swapped, in both halves:
   253. Day: ember 130, moss 65, amber 94, brick 131, slate blue 24, heather 60,
   verdigris 23, muted 242, comment 246, ink 236.
 - Neovim: bg is the pane, bg1 the window colour, bg2 the pane shifted 8
-  percent toward white (night `#2D3036`) or black (day `#CBC8C0`); roles per
+  percent toward white (night ![#2D3036](https://placehold.co/12x12/2d3036/2d3036.png) `#2D3036`) or black (day ![#CBC8C0](https://placehold.co/12x12/cbc8c0/cbc8c0.png) `#CBC8C0`); roles per
   the syntax section; terminal colours 0 to 15 from the ANSI tables;
   `background` dark / light accordingly.
 - Update script: headers text colour, info ember, success moss, warnings amber,
@@ -216,16 +216,16 @@ The Tokyo Day component rules apply with the palette swapped, in both halves:
 ### Firefox
 
 Night from Noir's dark manifest and stylesheets (the dark baseline port),
-day from Tokyo Day's. Night roles: frame `#15171C`, toolbar and popups
-`#22262E`, field `#1A1C22`, text fog, inactive tab text muted, icons moss,
-loud roles ember, button hover `#2A2F38`, menu hover `#3A2F2F`, pressed
-`#4A3530`, accent hover `#EB8252`, popup border `#3F4146` (manifest and
-stylesheet borders alike), highlight text `#15171C`. Day roles: frame `#E9E6DF`, toolbar and popups `#E2DED6`,
-field `#E9E6E0`, text ink, inactive tab text `#505156` (neutral_8, so it
+day from Tokyo Day's. Night roles: frame ![#15171C](https://placehold.co/12x12/15171c/15171c.png) `#15171C`, toolbar and popups
+![#22262E](https://placehold.co/12x12/22262e/22262e.png) `#22262E`, field ![#1A1C22](https://placehold.co/12x12/1a1c22/1a1c22.png) `#1A1C22`, text fog, inactive tab text muted, icons moss,
+loud roles ember, button hover ![#2A2F38](https://placehold.co/12x12/2a2f38/2a2f38.png) `#2A2F38`, menu hover ![#3A2F2F](https://placehold.co/12x12/3a2f2f/3a2f2f.png) `#3A2F2F`, pressed
+![#4A3530](https://placehold.co/12x12/4a3530/4a3530.png) `#4A3530`, accent hover ![#EB8252](https://placehold.co/12x12/eb8252/eb8252.png) `#EB8252`, popup border ![#3F4146](https://placehold.co/12x12/3f4146/3f4146.png) `#3F4146` (manifest and
+stylesheet borders alike), highlight text ![#15171C](https://placehold.co/12x12/15171c/15171c.png) `#15171C`. Day roles: frame ![#E9E6DF](https://placehold.co/12x12/e9e6df/e9e6df.png) `#E9E6DF`, toolbar and popups ![#E2DED6](https://placehold.co/12x12/e2ded6/e2ded6.png) `#E2DED6`,
+field ![#E9E6E0](https://placehold.co/12x12/e9e6e0/e9e6e0.png) `#E9E6E0`, text ink, inactive tab text ![#505156](https://placehold.co/12x12/505156/505156.png) `#505156` (neutral_8, so it
 clears 4.5:1; muted would not), icons moss, loud roles ember, button hover
-`#D4CFC6`, menu hover `#DBCCBF`, pressed `#D6BFB0`, accent hover `#8B3A16`,
-popup border `#999896` (manifest and stylesheets alike), highlight text
-`#E9E6DF`. New gecko ids, icons
+![#D4CFC6](https://placehold.co/12x12/d4cfc6/d4cfc6.png) `#D4CFC6`, menu hover ![#DBCCBF](https://placehold.co/12x12/dbccbf/dbccbf.png) `#DBCCBF`, pressed ![#D6BFB0](https://placehold.co/12x12/d6bfb0/d6bfb0.png) `#D6BFB0`, accent hover ![#8B3A16](https://placehold.co/12x12/8b3a16/8b3a16.png) `#8B3A16`,
+popup border ![#999896](https://placehold.co/12x12/999896/999896.png) `#999896` (manifest and stylesheets alike), highlight text
+![#E9E6DF](https://placehold.co/12x12/e9e6df/e9e6df.png) `#E9E6DF`. New gecko ids, icons
 generated as rings (ember and moss on the window colour). AMO listings are
 the user's step; slugs `cosmic-ember-theme` and `cosmic-emberday-theme`,
 checked free before the README links them.
@@ -233,8 +233,8 @@ checked free before the README links them.
 ### Cursors and icons
 
 Four variants per half, same names both sides: **Ember** (default), **Moss**,
-**Slate** (the blue slot) and **Dark** (night: front `#2A2F38`, back
-`#7C8290`, symbol ember) / **Ink** (day: front `#2B2E36`, back `#505156`,
+**Slate** (the blue slot) and **Dark** (night: front ![#2A2F38](https://placehold.co/12x12/2a2f38/2a2f38.png) `#2A2F38`, back
+![#7C8290](https://placehold.co/12x12/7c8290/7c8290.png) `#7C8290`, symbol ember) / **Ink** (day: front ![#2B2E36](https://placehold.co/12x12/2b2e36/2b2e36.png) `#2B2E36`, back ![#505156](https://placehold.co/12x12/505156/505156.png) `#505156`,
 symbol ember). Front, back and symbol are icon-pack keys; cursors take the
 front colour only, via Dark Gold's `recolour.py` from a Tokyo Night Blue base,
 previews on the window colour, so Dark / Ink cursors are body-colour variants
@@ -262,10 +262,10 @@ grey, the eagle's paper at 83) still land exactly on the window colour. Alpha
 is dropped.
 
 Night, ember on highlights only:
-`#15171C` flat (48 rows), to `#2A2F38` (42), to `#7C8290` (70), to `#E8713A` (60), to `#F1D9C8` (36).
+![#15171C](https://placehold.co/12x12/15171c/15171c.png) `#15171C` flat (48 rows), to ![#2A2F38](https://placehold.co/12x12/2a2f38/2a2f38.png) `#2A2F38` (42), to ![#7C8290](https://placehold.co/12x12/7c8290/7c8290.png) `#7C8290` (70), to ![#E8713A](https://placehold.co/12x12/e8713a/e8713a.png) `#E8713A` (60), to ![#F1D9C8](https://placehold.co/12x12/f1d9c8/f1d9c8.png) `#F1D9C8` (36).
 
 Day:
-`#2B2E36` to `#6B6F78` (100), to `#A4441A` (50), to `#D4CFC6` (40), to `#E9E6DF` (15), `#E9E6DF` flat (51).
+![#2B2E36](https://placehold.co/12x12/2b2e36/2b2e36.png) `#2B2E36` to ![#6B6F78](https://placehold.co/12x12/6b6f78/6b6f78.png) `#6B6F78` (100), to ![#A4441A](https://placehold.co/12x12/a4441a/a4441a.png) `#A4441A` (50), to ![#D4CFC6](https://placehold.co/12x12/d4cfc6/d4cfc6.png) `#D4CFC6` (40), to ![#E9E6DF](https://placehold.co/12x12/e9e6df/e9e6df.png) `#E9E6DF` (15), ![#E9E6DF](https://placehold.co/12x12/e9e6df/e9e6df.png) `#E9E6DF` flat (51).
 
 The script is the record of how every wallpaper was made, so a new subject is
 one command. `assets/wallpaper.png` and `assets/screenshot.png` are taken by

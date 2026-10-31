@@ -10,17 +10,17 @@ Stylesheets:
 
 | Hex       | Role                      |
 |-----------|---------------------------|
-| `#15171C` | Frame, page chrome, text on ember |
-| `#22262E` | Panels, menus             |
-| `#3A2F2F` | Menu hover row (ember tinted into the panel) |
-| `#4A3530` | Menu pressed row          |
-| `#3F4146` | Separators, menu border   |
-| `#E8713A` | Accent, URL bar border, hover rail |
-| `#EB8252` | New tab accent hover and active |
-| `#8FB58A` | New tab accent, active    |
-| `#7FB7B3` | Links                     |
-| `#D6D9E0` | Menu text (fog)           |
-| `#E2E4E9` | Hover text                |
+| ![#15171C](https://placehold.co/12x12/15171c/15171c.png) `#15171C` | Frame, page chrome, text on ember |
+| ![#22262E](https://placehold.co/12x12/22262e/22262e.png) `#22262E` | Panels, menus             |
+| ![#3A2F2F](https://placehold.co/12x12/3a2f2f/3a2f2f.png) `#3A2F2F` | Menu hover row (ember tinted into the panel) |
+| ![#4A3530](https://placehold.co/12x12/4a3530/4a3530.png) `#4A3530` | Menu pressed row          |
+| ![#3F4146](https://placehold.co/12x12/3f4146/3f4146.png) `#3F4146` | Separators, menu border   |
+| ![#E8713A](https://placehold.co/12x12/e8713a/e8713a.png) `#E8713A` | Accent, URL bar border, hover rail |
+| ![#EB8252](https://placehold.co/12x12/eb8252/eb8252.png) `#EB8252` | New tab accent hover and active |
+| ![#8FB58A](https://placehold.co/12x12/8fb58a/8fb58a.png) `#8FB58A` | New tab accent, active    |
+| ![#7FB7B3](https://placehold.co/12x12/7fb7b3/7fb7b3.png) `#7FB7B3` | Links                     |
+| ![#D6D9E0](https://placehold.co/12x12/d6d9e0/d6d9e0.png) `#D6D9E0` | Menu text (fog)           |
+| ![#E2E4E9](https://placehold.co/12x12/e2e4e9/e2e4e9.png) `#E2E4E9` | Hover text                |
 
 ## Structure
 
@@ -57,15 +57,15 @@ line clear 3:1.
 
 | Hex       | Where in the theme                          |
 |-----------|---------------------------------------------|
-| `#15171C` | Frame, new tab, text on ember selections   |
-| `#22262E` | Toolbar, menus                              |
-| `#1A1C22` | URL bar field                               |
-| `#2A2F38` | Button hover, sidebar border                |
-| `#3F4146` | Menu border                                 |
-| `#D6D9E0` | Body text                                   |
-| `#7C8290` | Inactive tab text                           |
-| `#8FB58A` | Icons                                       |
-| `#E8713A` | Focused URL bar ring and text selection, tab line, pressed button, menu and sidebar selection, loading, attention |
+| ![#15171C](https://placehold.co/12x12/15171c/15171c.png) `#15171C` | Frame, new tab, text on ember selections   |
+| ![#22262E](https://placehold.co/12x12/22262e/22262e.png) `#22262E` | Toolbar, menus                              |
+| ![#1A1C22](https://placehold.co/12x12/1a1c22/1a1c22.png) `#1A1C22` | URL bar field                               |
+| ![#2A2F38](https://placehold.co/12x12/2a2f38/2a2f38.png) `#2A2F38` | Button hover, sidebar border                |
+| ![#3F4146](https://placehold.co/12x12/3f4146/3f4146.png) `#3F4146` | Menu border                                 |
+| ![#D6D9E0](https://placehold.co/12x12/d6d9e0/d6d9e0.png) `#D6D9E0` | Body text                                   |
+| ![#7C8290](https://placehold.co/12x12/7c8290/7c8290.png) `#7C8290` | Inactive tab text                           |
+| ![#8FB58A](https://placehold.co/12x12/8fb58a/8fb58a.png) `#8FB58A` | Icons                                       |
+| ![#E8713A](https://placehold.co/12x12/e8713a/e8713a.png) `#E8713A` | Focused URL bar ring and text selection, tab line, pressed button, menu and sidebar selection, loading, attention |
 
 Build the package:
 
@@ -111,7 +111,7 @@ To undo: delete the two files from the profile's `chrome/` folder and restart.
 - **Never set `--panel-*` or `--arrowpanel-*` on `:root`.** Those variables leak
   into the toolbar and blank the URL bar. They stay on the popup elements.
 - **Context menus do not get an extra element border.** A second stroke made
-  the right-click panel look detached. Hover is an ember-tinted `#3A2F2F`
+  the right-click panel look detached. Hover is an ember-tinted ![#3A2F2F](https://placehold.co/12x12/3a2f2f/3a2f2f.png) `#3A2F2F`
   row with a 3px ember rail on the left, not a full ring.
 - **Native menu styling is switched off** (`appearance: none`) on menus and
   menu rows. Without it the COSMIC/GTK hover paints over the colours above.

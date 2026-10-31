@@ -6,12 +6,12 @@ rice's icon colours: one per folder colour of the
 [Cosmic-Ember](https://github.com/atraxsrc/cosmic-icon-themes) icon pack, **Ember**, **Moss**, **Slate**, **Dark**.
 All patched so they work in COSMIC's own apps.
 
-| Variant | Preview | Body | Contrast on `#15171C` | Goes with |
+| Variant | Preview | Body | Contrast on ![#15171C](https://placehold.co/12x12/15171c/15171c.png) `#15171C` | Goes with |
 | ------- | ------- | ---- | ------------------- | --------- |
-| **Ember** (default) | ![](../assets/cursors/Oxygen-Ember-Ember.png) | `#E8713A` | 5.9:1 | Ember folders |
-| **Moss** | ![](../assets/cursors/Oxygen-Ember-Moss.png) | `#8FB58A` | 7.8:1 | Moss folders |
-| **Slate** | ![](../assets/cursors/Oxygen-Ember-Slate.png) | `#7FA3C7` | 6.8:1 | Slate folders |
-| **Dark** | ![](../assets/cursors/Oxygen-Ember-Dark.png) | `#2A2F38` | 1.3:1 | Dark folders |
+| **Ember** (default) | ![](../assets/cursors/Oxygen-Ember-Ember.png) | ![#E8713A](https://placehold.co/12x12/e8713a/e8713a.png) `#E8713A` | 5.9:1 | Ember folders |
+| **Moss** | ![](../assets/cursors/Oxygen-Ember-Moss.png) | ![#8FB58A](https://placehold.co/12x12/8fb58a/8fb58a.png) `#8FB58A` | 7.8:1 | Moss folders |
+| **Slate** | ![](../assets/cursors/Oxygen-Ember-Slate.png) | ![#7FA3C7](https://placehold.co/12x12/7fa3c7/7fa3c7.png) `#7FA3C7` | 6.8:1 | Slate folders |
+| **Dark** | ![](../assets/cursors/Oxygen-Ember-Dark.png) | ![#2A2F38](https://placehold.co/12x12/2a2f38/2a2f38.png) `#2A2F38` | 1.3:1 | Dark folders |
 
 Dark is a body-colour variant for the dark folders: it sits close to the window
 colour, so it reads by its white border and black outline rather than by contrast.
