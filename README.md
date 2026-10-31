@@ -2,6 +2,8 @@
 
 # COSMIC · Ember
 
+![Ember palette](assets/palette.png)
+
 Pop!_OS 24.04 on COSMIC in Ember blue-black, fog and one ember accent: desktop,
 terminal, shell, editor, Firefox, Brave, cursor, wallpapers. The dark half of a pair;
 the light half is [cosmic-emberday-theme](https://github.com/atraxsrc/cosmic-emberday-theme).
@@ -114,6 +116,7 @@ Window hint ![#E8713A](https://placehold.co/12x12/e8713a/e8713a.png) `#E8713A`. 
 │   └── install.sh
 ├── assets
 │   ├── cursors/                 # cursor preview
+│   ├── palette.png              # the 16 terminal colours, under the title
 │   └── screenshot.png           # README screenshot
 ├── backgrounds/                 # ember-anime.png
 ├── docs
