@@ -1,0 +1,6 @@
+name = "Ember"
+mode = "dark"
+theme = "Ember.ron"
+pair = "emberday"
+terminal = "Ember-term.ron"
+btop = "Ember"
