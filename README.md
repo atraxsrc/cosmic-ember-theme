@@ -12,6 +12,7 @@ the light half is [cosmic-emberday-theme](https://github.com/atraxsrc/cosmic-emb
 ![COSMIC](https://img.shields.io/badge/COSMIC-1.0.0-8fb58a?style=for-the-badge)
 ![Ember](https://img.shields.io/badge/Theme-Ember-15171c?style=for-the-badge&labelColor=e8713a)
 ![Firefox](https://img.shields.io/badge/Firefox-Cosmic_Ember-e8713a?style=for-the-badge&logo=firefox-browser&logoColor=white)
+[![Gallery](https://img.shields.io/badge/Gallery-All_rices-e8713a?style=for-the-badge)](https://atraxsrc.github.io/cosmic-rices/)
 ![License](https://img.shields.io/badge/License-MIT-7c8290?style=for-the-badge)
 
 </div>
