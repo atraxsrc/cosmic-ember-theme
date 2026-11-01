@@ -133,7 +133,7 @@ Window hint ![#E8713A](https://placehold.co/12x12/e8713a/e8713a.png) `#E8713A`. 
 │   ├── Ember.conf               # qt5ct / qt6ct colour scheme
 │   └── install.sh
 ├── starship
-│   ├── starship.toml            # prompt, palette colours, clock on the right
+│   ├── starship.toml            # prompt, palette colours
 │   └── install.sh
 ├── telegram
 │   ├── colors.tdesktop-theme    # Telegram Desktop colour scheme (source)
@@ -514,8 +514,7 @@ kitty and Alacritty have no such switch; include the other file instead.
 `starship/starship.toml` is close to the defaults with the palette declared
 once as `[palettes.ember]` and used by name: the directory in ![#808693](https://placehold.co/12x12/808693/808693.png) `#808693`,
 the branch in ![#D9A441](https://placehold.co/12x12/d9a441/d9a441.png) `#D9A441`, ![#D9A441](https://placehold.co/12x12/d9a441/d9a441.png) `#D9A441` for a dirty tree, a ![#8FB58A](https://placehold.co/12x12/8fb58a/8fb58a.png) `#8FB58A` prompt
-character that turns ![#D85A5A](https://placehold.co/12x12/d85a5a/d85a5a.png) `#D85A5A` after a failed command, a dim `HH:MM` clock on
-the right. Modules it does not style keep their defaults, which use the ANSI
+character that turns ![#D85A5A](https://placehold.co/12x12/d85a5a/d85a5a.png) `#D85A5A` after a failed command. Modules it does not style keep their defaults, which use the ANSI
 slots the COSMIC Terminal scheme colours. `zsh/ember.zsh` already runs
 `starship init`. `install.sh` backs up any existing `~/.config/starship.toml`
 to `starship.toml.bak`.
