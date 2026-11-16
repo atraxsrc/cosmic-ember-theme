@@ -877,7 +877,7 @@ puts the Pop cursor back.
 
 ## Credits
 
-- Palette: Ember, designed for this pair (see `docs/superpowers/specs/2026-10-14-ember-design.md`).
+- Palette: Ember, designed for this pair.
 - Subjects: [cool-wallpapers](https://github.com/atraxsrc/cool-wallpapers), the eagle included (MIT).
 - Templates: [cosmic-tokyonight-theme](https://github.com/atraxsrc/cosmic-tokyonight-theme) and
   [cosmic-tokyoday-theme](https://github.com/atraxsrc/cosmic-tokyoday-theme).
